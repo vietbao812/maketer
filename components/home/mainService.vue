@@ -26,12 +26,32 @@ let mainService = reactive([
   },
 ]);
 
+// thời gian chạy xong setInterval
+let runTime = 1000;
+// thời gian chạy 1 lần
+let runPerTime = 50;
+// tổng số lần chạy
+let countRun = runTime / runPerTime;
+
 mainService.forEach((service) => {
-  setInterval(() => {
+  let valuePerTime = service.counter / countRun;
+  valuePerTime.toFixed(0);
+  let a = 0;
+  let b = 0;
+  const intervalId = setInterval(() => {
     if (service.default < service.counter) {
-      service.default++;
+      a += valuePerTime;
+      b = a.toFixed(0);
+      service.default = b;
+      if (service.default >= service.counter) {
+        service.default = Math.round(service.default);
+      }
     }
-  }, 40);
+
+    if (service.default === service.counter) {
+      clearInterval(intervalId);
+    }
+  }, runPerTime);
 });
 </script>
 
@@ -43,7 +63,7 @@ mainService.forEach((service) => {
       class="w-full lg:w-auto flex-grow flex p-4 sm:p-6 rounded-[30px] relative flex-wrap items-end overflow-hidden"
     >
       <div
-        class="absolute top-0 left-0 w-[88%] h-full bg-greenLight z-0 rounded-[30px]"
+        class="service-left-bg absolute top-0 left-0 w-[86%] xl:w-[90%] h-full bg-greenLight z-0 rounded-[30px]"
       ></div>
       <div
         class="absolute bottom-0 right-0 w-2/5 h-full sm:h-4/5 bg-greenLight z-0 rounded-[30px]"
@@ -116,7 +136,7 @@ mainService.forEach((service) => {
       <img
         src="~/assets/img/right-person-removebg.png"
         alt=""
-        class="h-auto w-auto absolute bottom-0 right-0"
+        class="h-auto lg:h-full w-auto absolute bottom-0 right-0"
       />
       <img
         src="~/assets/img/circle-right.png"
@@ -133,5 +153,10 @@ mainService.forEach((service) => {
 
 
 
-<style>
+<style lang="scss">
+@media (width: 1280px) {
+  .service-left-bg {
+    width: 84%;
+  }
+}
 </style>

@@ -1,8 +1,8 @@
 <template>
   <section
-    class="pt-[70px] px-[15px] xl:px-[100px] grid grid-cols-1 md:grid-cols-2 mb-[62px]"
+    class="pt-[70px] px-[15px] xl:px-[100px] grid grid-cols-1 md:grid-cols-5 mb-[62px] overflow-hidden"
   >
-    <div class="flex flex-col lg:text-left animate-bounce-in">
+    <div class="col-span-3 flex flex-col lg:text-left animate-left-right">
       <h1
         class="font-semibold text-[32px] md:text-[48px] lg:text-[55px] text-primary text-center md:text-left"
       >
@@ -42,7 +42,9 @@
         </NuxtLink>
       </div>
     </div>
-    <div class="lg:pl-44 mt-8 lg:mx-0 lg:mt-0 z-10 animate-bounce-in">
+    <div
+      class="col-span-2 lg:pr-24 mt-8 lg:mx-0 lg:mt-0 z-10 animate-right-left"
+    >
       <img src="~/assets/img/digital-agency.png" class="mx-auto" />
     </div>
   </section>

@@ -2,7 +2,7 @@
   <section
     class="px-0 xl:px-[100px] mt-[30px] md:my-[60px] grid grid-cols-1 lg:grid-cols-2"
   >
-    <div class="">
+    <div data-aos="fade-up" data-aos-delay="600">
       <div
         class="max-w-full lg:max-w-[432px] h-auto lg:h-[355px] bg-grayFA rounded-3xl relative p-[15px] lg:p-0"
       >
@@ -83,7 +83,11 @@
         </div>
       </div>
     </div>
-    <div class="md:mt-8 lg:mt-0 p-[15px] xl:p-0">
+    <div
+      class="md:mt-8 lg:mt-0 p-[15px] xl:p-0"
+      data-aos="fade-up"
+      data-aos-delay="500"
+    >
       <h2
         class="text-3xl md:text-5xl text-black sm:leading-[64px] mb-6 font-medium"
       >

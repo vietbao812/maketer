@@ -2,10 +2,10 @@
   <section
     class="px-[0px] xl:px-[100px] md:pt-[30px] lg:pt-[85px] pb-[30px] lg:pb-[150px] grid grid-cols-1 lg:grid-cols-2 items-center"
   >
-    <div class="px-[15px] lg:px-0">
+    <div data-aos="fade-up" data-aos-delay="500" class="px-[15px] lg:px-0">
       <div class="lg:max-w-[436px]">
         <h2
-          class="text-3xl md:text-5xl text-black font-medium leading-[64px] mb-6"
+          class="text-3xl md:text-5xl text-black font-medium leading-[64px] md:leading-[64px] mb-6"
         >
           Available many jobs for marketing field
         </h2>
@@ -15,7 +15,7 @@
         </p>
       </div>
     </div>
-    <div class="mt-5 lg:mt-0">
+    <div data-aos="fade-up" data-aos-delay="600" class="mt-5 lg:mt-0">
       <div
         class="bg-grayFA lg:w-[432px] lg:h-[355px] rounded-[24px] relative p-[15px] lg:p-0"
       >

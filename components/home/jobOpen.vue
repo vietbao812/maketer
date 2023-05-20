@@ -53,7 +53,11 @@ let jobOpen = reactive([
 
 <template>
   <section class="px-[15px] xl:px-[100px] bg-grayFA pt-[100px] pb-[45px]">
-    <div class="mx-auto sm:max-w-[614px] text-center">
+    <div
+      data-aos="fade-up"
+      data-aos-delay="400"
+      class="mx-auto sm:max-w-[614px] text-center"
+    >
       <h2 class="text-3xl md:text-5xl leading-none font-medium mb-6">
         2000+ Job Openings
       </h2>
@@ -63,6 +67,8 @@ let jobOpen = reactive([
       </p>
     </div>
     <div
+      data-aos="fade-up"
+      data-aos-delay="500"
       class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-[30px] gap-y-8 mb-8"
     >
       <div
