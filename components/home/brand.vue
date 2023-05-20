@@ -18,7 +18,7 @@
       class="cursor-pointer mx-2 mb-10 lg:mb-0"
     />
     <img
-      src="~/assets/img/Tiktok.png"
+      src="~/assets/img/TikTok.png"
       alt=""
       class="cursor-pointer mx-2 mb-10 lg:mb-0"
     />
