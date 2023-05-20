@@ -63,7 +63,7 @@ mainService.forEach((service) => {
       class="w-full lg:w-auto flex-grow flex p-4 sm:p-6 rounded-[30px] relative flex-wrap items-end overflow-hidden"
     >
       <div
-        class="service-left-bg absolute top-0 left-0 w-[86%] xl:w-[90%] h-full bg-greenLight z-0 rounded-[30px]"
+        class="service-left-bg absolute top-0 left-0 w-[86%] xl:w-[88%] 2xl:w-[90%] h-full bg-greenLight z-0 rounded-[30px]"
       ></div>
       <div
         class="absolute bottom-0 right-0 w-2/5 h-full sm:h-4/5 bg-greenLight z-0 rounded-[30px]"
