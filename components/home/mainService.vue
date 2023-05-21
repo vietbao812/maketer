@@ -110,7 +110,7 @@ mainService.forEach((service) => {
         </div>
       </div>
       <div
-        class="mt-[31px] bg-blackPrimary w-full rounded-[20px] py-4 md:py-0 px-4 sm:px-[63px] flex items-center justify-between h-auto md:h-[104px] flex-wrap text-center md:text-left z-10"
+        class="mt-[31px] bg-blackPrimary w-full rounded-[20px] 3 md:py-0 px-4 sm:px-[63px] flex items-center justify-between h-auto md:h-[104px] flex-wrap text-center md:text-left z-10"
       >
         <div
           v-for="service in mainService"
@@ -136,11 +136,11 @@ mainService.forEach((service) => {
       <img
         src="~/assets/img/right-person-removebg.png"
         alt=""
-        class="h-auto lg:h-full w-auto absolute bottom-0 right-0"
+        class="h-auto w-auto absolute bottom-0 right-0"
       />
       <img
         src="~/assets/img/circle-right.png"
-        class="absolute -top-[25%] left-[14px]"
+        class="absolute -top-[20%] left-[14px]"
         alt=""
       />
       <div class="w-full h-full text-black pt-[77px] z-10 relative">

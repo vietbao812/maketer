@@ -2,7 +2,7 @@
   <section
     class="px-[0px] xl:px-[100px] md:pt-[30px] lg:pt-[85px] pb-[30px] lg:pb-[150px] grid grid-cols-1 lg:grid-cols-2 items-center"
   >
-    <div data-aos="fade-up" data-aos-delay="500" class="px-[15px] lg:px-0">
+    <div data-aos="fade-up" data-aos-delay="500" class="px-[15px] xl:px-0">
       <div class="lg:max-w-[436px]">
         <h2
           class="text-3xl md:text-5xl text-black font-medium leading-[64px] md:leading-[64px] mb-6"
@@ -20,7 +20,7 @@
         class="bg-grayFA lg:w-[432px] lg:h-[355px] rounded-[24px] relative p-[15px] lg:p-0"
       >
         <div
-          class="group lg:absolute lg:top-[58px] lg:left-[48px] bg-white rounded-[24px] lg:w-[500px] lg:min-h-[327px] pt-[30px] sm:pt-[54px] pb-[30px] sm:pb-[49px] px-[15px] sm:px-[41px] cursor-pointer"
+          class="group lg:absolute lg:top-[58px] lg:left-[48px] bg-white rounded-[24px] lg:w-[450px] xl:w-[500px] lg:min-h-[327px] pt-[30px] sm:pt-[54px] pb-[30px] sm:pb-[49px] px-[15px] sm:px-[41px] cursor-pointer"
           style="box-shadow: 0px 2.73973px 10.9589px rgba(0, 0, 0, 0.04)"
         >
           <div class="mb-[19px]">
