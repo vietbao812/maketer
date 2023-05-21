@@ -29,7 +29,7 @@ const modules = [Autoplay, Pagination];
       :space-between="20"
       :loop="true"
       :autoplay="{
-        delay: 20000,
+        delay: 2000,
         disableOnInteraction: false,
         pauseOnMouseEnter: true,
       }"
